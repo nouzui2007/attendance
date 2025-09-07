@@ -165,7 +165,6 @@ fastlane/test_output
 
 # Logs
 logs/
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -177,7 +176,6 @@ pids/
 *.pid.lock
 
 # Coverage directory used by tools like istanbul
-coverage/
 
 # nyc test coverage
 .nyc_output
@@ -230,12 +228,10 @@ node_modules/
 
 # Editor directories and files
 .vscode/
-.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
 
 # OS generated files
 Thumbs.db
@@ -256,5 +252,4 @@ $RECYCLE.BIN/
 
 # Backup files
 *.backup
-*.bak
 *.old
